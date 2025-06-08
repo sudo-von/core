@@ -1,0 +1,20 @@
+{
+  "name": "@sudo-von/core",
+  "version": "0.0.0",
+  "description": "Provides a lightweight and reusable core service for managing applications.",
+  "keywords": [
+    "@sudo-von",
+    "core"
+  ],
+  "homepage": "https://github.com/sudo-von/core#readme",
+  "bugs": {
+    "url": "https://github.com/sudo-von/core/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/core.git"
+  },
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "main": "dist/index.js",
+  "scripts": {}
+}
