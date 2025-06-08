@@ -17,5 +17,15 @@
   "license": "MIT",
   "author": "Jesús Ángel Rodríguez Martínez",
   "main": "dist/index.js",
-  "scripts": {}
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run start:clean && npm run start:build",
+    "start:build": "tsc",
+    "start:clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
 }
