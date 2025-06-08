@@ -1,6 +1,6 @@
 {
   "name": "@sudo-von/core",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Provides a lightweight and reusable core service for managing applications.",
   "keywords": [
     "@sudo-von",
